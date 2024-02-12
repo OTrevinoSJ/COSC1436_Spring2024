@@ -1,0 +1,20 @@
+start
+	
+	output "Welcome to Jeopardy!"
+	output "Rules\n"
+	output "There are six categories\n"
+	output "Each team will be given a chance to hit the buzzer\n"
+	output "The host will read an answer and once the answer is read, a green indicator appears at the bottom of the screen, and the captain for each team may ring in using the signaling device.\n"
+	output "Note: If the buzzer is hit before the green indicator lights up, it will not work\n"
+	output "The first contestant to ring the buzzer will answer in the form of a question.\n"
+	output "An incorrect response or a failure to ring in within the time limit deducts the dollar value of the clue from the team’s score and gives any remaining opponent(s) the opportunity to ring in and respond."
+	output "If none of the contestants gives a correct response, the host reads the correct response and the contestant who has most recently given a correct response to a previous answer chooses the next answer."
+	output "When the “Daily Double” screen appears, only the team that selected that category/amount gets to play. They choose a dollar amount to wager, ranging from $0 to the total they have accumulated. When the answer is read, 
+			they have the usual amount of time to provide a question. If they are correct, they get the amount they wagered; if they are incorrect, they lose that amount, and no other team gets a 
+			chance to try. The host does not know which question will be the Daily Double, since the choice is randomized by the machine and is different every time.\n"
+	output "Final Jeopardy Rules\n"
+	output "A category is announced by the host. The teams will each agree on and write down a wager, based on the category, of as little as $0 or up to as much money as they have accumulated.\n"
+	output "The contestants have 30 seconds to write a response, again phrased in the form of a question."
+	
+stop
+
