@@ -1,0 +1,137 @@
+// A //
+start
+	Declarations
+		num i = 0
+	lower()
+	while i < 3
+		move()
+		turn()
+	endwhile
+stop
+
+// B //
+start
+	Declarations
+		num i = 0
+	lower()
+	move()
+	move()
+	turn()
+	while i < 2
+		move()
+		turn()
+		move()
+	endwhile
+stop
+
+// C //
+start
+	Declarations
+		num i = 0
+	while i < 3
+		lower()
+		move()
+		raise()
+	endwhile
+stop
+
+// D //
+// I just dont know with this one lol ** so many repeating items ** 
+start
+	Declarations
+		num i,j,k = 0
+	lower()
+	move()
+	turn()
+	turn()
+	move()
+	while i < 2
+		turn()
+		turn()
+		turn()
+		move()
+	endwhile
+	raise()
+	lower()
+	turn()
+	turn()
+	turn()
+	while j < 3
+		move()
+		turn()
+	endwhile
+	move()
+	turn()
+	turn()
+	move()
+	raise()
+	move()
+	move()
+	lower()
+	turn()
+	turn()
+	turn()
+	while k < 3
+		move()
+		turn()
+	endwhile
+	turn()
+	turn()
+	turn()
+	move()
+stop
+
+// E //
+start
+	Declarations
+		num i = 0
+	while i < 4
+		lower()
+		turn()
+		move()
+		turn()
+		turn()
+		move()
+		turn()
+		raise()
+		move()
+	endwhile
+stop
+	
+// Question 5. //
+start
+	Declarations
+		num i = 0
+	stand()
+	while i < 20
+		takeStep()
+	endwhile
+	turnRight()
+	turnRight()
+	sit()
+stop
+
+// Question 6. //
+start
+	Declarations
+		num i = 0
+		num j = 0
+	stand()
+	while i < 5
+		turnRight()
+		takeFiveSteps()
+	endwhile
+	turnLeft()
+	takeTwentySteps()
+	turnLeft()
+	takeFiveSteps()
+	while j < 4
+		turnRight()
+		takeFiveSteps()
+	endwhile
+	turnLeft()
+	takeTwentySteps()
+	turnRight()
+	turnRight()
+	sit()
+	

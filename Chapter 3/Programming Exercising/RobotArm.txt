@@ -1,0 +1,34 @@
+tasks:
+	lowerArm
+	raisePen
+	move (Line is drawn in the direction of pen) default: 1-inch
+	turn
+	drawCircle
+	*assume arm knows answer*
+
+a
+
+start
+	num count
+	lowerArm
+	while count <= 4
+		move
+		turn
+		increase count by 1
+	endwhile
+	raisePen
+stop
+
+b.
+	num count
+	lowerArm
+	while count <= 4
+		move
+		move
+		turn
+		
+c.
+start
+	string beads
+	while 
+		
