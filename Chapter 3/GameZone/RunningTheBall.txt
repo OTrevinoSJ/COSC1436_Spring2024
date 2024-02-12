@@ -1,0 +1,19 @@
+start
+	Declarations
+		boolean hasBall = true
+		string decision
+	if hasBall is true
+		output "What will you decide, pass or run? "
+		input decision
+		while decision is not "pass" or decision is not "run"
+			ouput "That's not an option!"
+			input decision
+		endwhile
+		output "The player choosed to " + decision + " the football."
+	endif
+	if decision is pass
+		output "Player passes the ball to player 25"
+	else
+		output "Player runs the ball to the touchdown zone"
+	endif
+stop
