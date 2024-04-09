@@ -15,7 +15,7 @@ public class GameCharacter {
     private String[] accessories;
 
     // Three Constructors to construct differnt styles and additions of the objects
-    GameCharacter(String name, int age, int height, int weight) {
+    public GameCharacter(String name, int age, int height, int weight) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -23,7 +23,7 @@ public class GameCharacter {
         numOfNoClothesCharacters += 1;
     }
 
-    GameCharacter(String name, int age, int height, int weight, String shirt, String pants, String shoes) {
+    public GameCharacter(String name, int age, int height, int weight, String shirt, String pants, String shoes) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -33,7 +33,7 @@ public class GameCharacter {
         this.shoes = shoes;
     }
 
-    GameCharacter(String name, int age, int height, int weight, String shirt, String pants, String shoes, String[] accessories) {
+    public GameCharacter(String name, int age, int height, int weight, String shirt, String pants, String shoes, String[] accessories) {
         this.name = name;
         this.age = age;
         this.height = height;
