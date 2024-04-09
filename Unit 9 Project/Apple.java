@@ -4,12 +4,12 @@ public class Apple {
     static int amountOfApples = 0;
 
     // class fields
-    private int size;
+    private FruitSize size;
     private String color;
     private String age;
 
     // Constructor to construct the object
-    public Apple(int size, String color, String age) {
+    public Apple(FruitSize size, String color, String age) {
         this.size = size;
         this.color = color;
         this.age = age;
@@ -17,7 +17,7 @@ public class Apple {
     }
 
     // Getters & Setters for class fields
-    public int getSize() {
+    public FruitSize getSize() {
         return this.size;
     }
 
@@ -29,7 +29,7 @@ public class Apple {
         return this.age;
     }
 
-    public void setSize(int size) {
+    public void setSize(FruitSize size) {
         this.size = size;
     }
 

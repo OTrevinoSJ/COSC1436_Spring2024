@@ -42,7 +42,7 @@ public class GameCharacter {
         this.pants = pants;
         this.shoes = shoes;
         this.accessories = accessories;
-        numOfTotalAccessories += accessories.length;
+        numOfTotalAccessories += this.accessories.length;
     }
 
     // Getters & Setters
