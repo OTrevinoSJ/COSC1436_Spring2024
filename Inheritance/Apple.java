@@ -3,33 +3,42 @@ public class Apple {
     // (Bonus) static variable
     static int amountOfApples = 0;
 
+    // An enum to determine what fruit sizes are available
     private FruitSize DEFAULT_SIZE = FruitSize.MEDIUM;
 
     // class instance fields
     private int size;
     private String color;
 
-    // Constructor to construct the object
+    /**
+     * A constructor to create an instance of the apple class
+     * @param size
+     * @param color
+     */
     public Apple(int size, String color) {
         setSize(size);
         this.color = color;
         amountOfApples += 1;
     }
 
-    // Getters & Setters for class fields
+    /**
+     * A method to retrieve the size attribute
+     * @return
+     */
     public int getSize() {
         return this.size;
     }
 
-    /*
-     * This function gets the color of the apple
+    /**
+     * A method to retrieve the color attribute
      */
     public String getColor() {
         return this.color;
     }
 
-    /*
-     * This function changes the value of size if the size is lower or higher than the ranges that are given by the enum class
+    /**
+     * A method that takes input size and determines if the size is valid for the apple object, if not, logic will handle it accordingly
+     * @param size
      */
     public void setSize(int size) {
         int min = FruitSize.SMALL.getNumberSize() - 1;
@@ -41,7 +50,10 @@ public class Apple {
         }
     }
 
-    // This method set the color of the apple
+    /**
+     * A method to set the color of the apple object
+     * @param color
+     */
     public void setColor(String color) {
         this.color = color;
     }

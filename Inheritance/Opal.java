@@ -1,6 +1,10 @@
 public class Opal extends Apple {
 
-    // An opal is part of the apple family
+    /**
+     * A construct to create the instance of the opal class
+     * @param size
+     * @param color
+     */
     public Opal(int size, String color) {
         super(size, color);
     }

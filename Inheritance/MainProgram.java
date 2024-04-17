@@ -1,6 +1,6 @@
 public class MainProgram {
     
-    /*S
+    /*
      * This is my main program
      */
     public static void main(String[] args) {
