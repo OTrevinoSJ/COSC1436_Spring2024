@@ -13,7 +13,7 @@ public class Car {
      * @param color
      * @param cost
      */
-    Car(String model, String brand, String color, int cost) {
+    public Car(String model, String brand, String color, int cost) {
         this.model = model;
         this.brand = brand;
         this.color = color;
