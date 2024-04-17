@@ -8,12 +8,12 @@ public class Car {
 
     /**
      * 
-     * @param model
-     * @param brand
-     * @param color
-     * @param cost
+     * @param model model of the vehicle
+     * @param brand brand of the vehicle
+     * @param color color of the vehicle
+     * @param cost cost of the vehicle
      */
-    public Car(String model, String brand, String color, int cost) {
+    Car(String model, String brand, String color, int cost) {
         this.model = model;
         this.brand = brand;
         this.color = color;
@@ -54,7 +54,7 @@ public class Car {
 
     /**
      * A method to set the model for the vehicle
-     * @param model
+     * @param model model of the vehicle
      */
     public void setModel(String model) {
         this.model = model;
@@ -62,7 +62,7 @@ public class Car {
 
     /**
      * A method to set the brand for the vehicle
-     * @param brand
+     * @param brand brand of the vehicle
      */
     public void setBrand(String brand) {
         this.brand = brand;
@@ -70,7 +70,7 @@ public class Car {
 
     /**
      * A method to set the color of the vehicle
-     * @param color
+     * @param color color of the vehicle
      */
     public void setColor(String color) {
         this.color = color;
@@ -78,7 +78,7 @@ public class Car {
 
     /**
      * A method to set the cost of the vehicle
-     * @param cost
+     * @param cost cost of the vehicle
      */
     public void setCost(int cost) {
         this.cost = cost;

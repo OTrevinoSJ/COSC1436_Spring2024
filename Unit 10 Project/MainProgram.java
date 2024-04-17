@@ -1,5 +1,9 @@
 public class MainProgram {
     
+    
+    /** 
+     * @param args arguments provided from the console
+     */
     /*
      * This is my main program
      */

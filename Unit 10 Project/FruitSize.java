@@ -7,8 +7,8 @@ public enum FruitSize {
     private int size;
 
     /**
-     * A enum constructor to associate ints to sizes SMALL, MEDIUM, and LARGE
-     * @param size
+     * An enum constructor to associate ints to sizes SMALL, MEDIUM, and LARGE
+     * @param size size value for enum names
      */
     FruitSize(int size) {
         this.size = size;

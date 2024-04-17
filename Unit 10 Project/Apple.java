@@ -12,8 +12,8 @@ public class Apple {
 
     /**
      * A constructor to create an instance of the apple class
-     * @param size
-     * @param color
+     * @param size size of apple
+     * @param color color of apple
      */
     public Apple(int size, String color) {
         setSize(size);
@@ -23,7 +23,7 @@ public class Apple {
 
     /**
      * A method to retrieve the size attribute
-     * @return
+     * @return the size of the apple
      */
     public int getSize() {
         return this.size;
@@ -38,7 +38,7 @@ public class Apple {
 
     /**
      * A method that takes input size and determines if the size is valid for the apple object, if not, logic will handle it accordingly
-     * @param size
+     * @param size size of the apple
      */
     public void setSize(int size) {
         int min = FruitSize.SMALL.getNumberSize() - 1;
@@ -52,7 +52,7 @@ public class Apple {
 
     /**
      * A method to set the color of the apple object
-     * @param color
+     * @param color color of the apple
      */
     public void setColor(String color) {
         this.color = color;

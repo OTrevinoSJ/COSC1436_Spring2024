@@ -8,11 +8,11 @@ public class Tesla extends Car{
 
     /**
      * A constructor to create an instance of a tesla
-     * @param model
-     * @param brand
-     * @param color
-     * @param cost
-     * @param batteryLife
+     * @param model model of Tesla
+     * @param brand brand of Tesla
+     * @param color color of Tesla
+     * @param cost cost of Tesla
+     * @param batteryLife current battery life of tesla. Tesla object starts with no battery inside, you must assign one
      * 
      */
     public Tesla(String model, String brand, String color, int cost, int batteryLife) {
@@ -41,7 +41,7 @@ public class Tesla extends Car{
 
     /**
      * A method that sets the chip for the vehicle
-     * @param chip
+     * @param chip sets the chip of the tesla vehicle
      */
     public void setChip(String chip){
         this.computerChip = chip;
@@ -57,7 +57,7 @@ public class Tesla extends Car{
 
     /**
      * A method that allows you to set the chip to use for the object
-     * @param batteryType
+     * @param batteryType sets the physical battery that the tesla vehicle uses
      */
     public void setBatteryType(String batteryType) {
         this.batteryType = batteryType;
@@ -96,8 +96,10 @@ public class Tesla extends Car{
         this.isCharging = false;
     }
 
+    
     /*
-     * This method is used to display fancy loading bars
+     * A method to display a charging status with loading lines
+     * @throws InterruptedException Thread.sleep requires an InterruptedException to be thrown
      */
     private void loadingBar() throws InterruptedException {
         System.out.println("Charging.");

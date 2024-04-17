@@ -16,10 +16,10 @@ public class GameCharacter {
 
     /**
      * A basic form of character creation. This form only require the essential data to create a simple character
-     * @param name
-     * @param age
-     * @param height
-     * @param weight
+     * @param name name of the character
+     * @param age age of the character
+     * @param height height of the character
+     * @param weight weight of the character
      */
     public GameCharacter(String name, int age, int height, int weight) {
         this.name = name;
@@ -32,13 +32,13 @@ public class GameCharacter {
 
     /**
      * A method that is a step up from the basic constructor. This constructor requires clothing attributes
-     * @param name
-     * @param age
-     * @param height
-     * @param weight
-     * @param shirt
-     * @param pants
-     * @param shoes
+     * @param name name of the character
+     * @param age age of the character
+     * @param height height of the character
+     * @param weight weight of the character
+     * @param shirt shirt for the character
+     * @param pants pants for the character
+     * @param shoes shoes for the character
      */
     public GameCharacter(String name, int age, int height, int weight, String shirt, String pants, String shoes) {
         this.name = name;
@@ -52,14 +52,14 @@ public class GameCharacter {
 
     /**
      * This is an additional constructor to include any list of accessories
-     * @param name
-     * @param age
-     * @param height
-     * @param weight
-     * @param shirt
-     * @param pants
-     * @param shoes
-     * @param accessories
+     * @param name name of the character
+     * @param age age of the character
+     * @param height height of the character
+     * @param weight weight of the character
+     * @param shirt shirt for the character
+     * @param pants pants for the character
+     * @param shoes shoes for the character
+     * @param accessories accessories for the character
      */
     public GameCharacter(String name, int age, int height, int weight, String shirt, String pants, String shoes, String[] accessories) {
         this.name = name;
@@ -139,7 +139,7 @@ public class GameCharacter {
 
     /**
      * A method to set a name for the character
-     * @param name
+     * @param name name of the character
      */
     public void setName(String name) {
         this.name = name;
@@ -147,7 +147,7 @@ public class GameCharacter {
 
     /**
      * A method to set the age of the character, plus added logic to keep age within a bound that is legitimate
-     * @param age
+     * @param age age of the character
      */
     public void setAge(int age) {
         if (age <= 0) {
@@ -159,7 +159,7 @@ public class GameCharacter {
 
     /**
      * A method to set the height of the character, plus added logic to keep the height within bounds that are legitimate
-     * @param height
+     * @param height height of the character in centimeters
      */
     public void setHeight(int height) {
         if (height <= 0) {
@@ -174,7 +174,7 @@ public class GameCharacter {
 
     /**
      * A method to set the weight of the character, plus added logic to keep weight within bounds that are legitimate
-     * @param weight
+     * @param weight weight of the character in pounds
      */
     public void setWeight(int weight) {
         if (weight <= 0) {
@@ -189,7 +189,7 @@ public class GameCharacter {
 
     /**
      * A method to set the shirt of the character
-     * @param shirt
+     * @param shirt shirt for the character
      */
     public void setShirt(String shirt) {
         this.shirt = shirt;
@@ -197,7 +197,7 @@ public class GameCharacter {
 
     /**
      * A method to set the pants of the character
-     * @param pants
+     * @param pants pants for the character
      */
     public void setPants(String pants) {
         this.pants = pants;
@@ -205,7 +205,7 @@ public class GameCharacter {
 
     /**
      * A method to set the shoes of the character
-     * @param shoes
+     * @param shoes shoes for the character
      */
     public void setShoes(String shoes) {
         this.shoes = shoes;
@@ -213,7 +213,7 @@ public class GameCharacter {
 
     /**
      * A method to set the accessories list of the character
-     * @param accessories
+     * @param accessories accessories for the character
      */
     public void setAccessories(String[] accessories) {
         this.accessories = accessories;

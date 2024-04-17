@@ -8,10 +8,10 @@ public class Jake extends GameCharacter {
 
     /**
      * A constructor to create the instance of Jake
-     * @param name
-     * @param age
-     * @param height
-     * @param weight
+     * @param name name of Jake
+     * @param age age of Jake
+     * @param height height of Jake
+     * @param weight weight of Jake
      */
     public Jake(String name, int age, int height, int weight) {
         super(name, age, height, weight);
@@ -22,7 +22,7 @@ public class Jake extends GameCharacter {
 
     /**
      * A method to set the max usage of power blast
-     * @param uses
+     * @param uses value to set the max usages of power blast
      */
     public void setMaxPBlastUses(int uses) {
         this.maxUses[0] = uses;
@@ -30,7 +30,7 @@ public class Jake extends GameCharacter {
 
     /**
      * A method to set the max usage of cloaking
-     * @param uses
+     * @param uses value to the set the max usages of cloaking
      */
     public void setMaxCloakingUses(int uses) {
         this.maxUses[1] = uses;
