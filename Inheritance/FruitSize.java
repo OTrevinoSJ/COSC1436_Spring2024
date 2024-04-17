@@ -1,5 +1,4 @@
 public enum FruitSize {
-    // enum constants calling enum constructor
     SMALL (1),
     MEDIUM (2),
     LARGE (3);
@@ -7,12 +6,18 @@ public enum FruitSize {
     // instance field
     private int size;
 
-    // Enun construtor
+    /**
+     * A enum constructor to associate ints to sizes SMALL, MEDIUM, and LARGE
+     * @param size
+     */
     FruitSize(int size) {
         this.size = size;
     }
 
-    // Gets the actual number of sizes SMALL, MEDIUM, LARGE
+    /**
+     * A method to retrieve the enum as a corresponding number value
+     * @return enum size value
+     */
     public int getNumberSize() {
         return size;
     }
