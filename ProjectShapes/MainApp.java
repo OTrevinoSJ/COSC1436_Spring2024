@@ -13,6 +13,8 @@ import Shapes.Square;
  */
 public class MainAppCopy {
 
+    // A constant variable that needs to be forcfully updated by me when adding a new class
+    // reason being, static arrays!
     private static int NUM_OF_SHAPES = 4;
 
     /**
