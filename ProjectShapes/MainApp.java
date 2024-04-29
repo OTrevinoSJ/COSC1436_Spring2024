@@ -11,7 +11,7 @@ import Shapes.Square;
 /**
  * This is my main application class
  */
-public class MainAppCopy {
+public class MainApp {
 
     // A constant variable that needs to be forcfully updated by me when adding a new class
     // reason being, static arrays!
