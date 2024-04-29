@@ -7,7 +7,7 @@ public class InvalidShapeArgument extends Exception{
     /**
      * A constructor that sets a message and a cause message
      */
-    InvalidShapeArgument(){
+    public InvalidShapeArgument(){
         super("You can't use that as a valid argument for that shape!", new Throwable(ConsoleColorUtil.ANSI_RED + "You must have entered an invalid value for the one of the shapes" + ConsoleColorUtil.ANSI_RESET));
     }
 
