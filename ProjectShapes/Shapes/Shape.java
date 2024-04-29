@@ -41,6 +41,9 @@ public abstract class Shape implements CalculableArea, CalculablePerimeter{
         return perimeter;
     }
 
+    /**
+     * Overrided the toString method to get the simple name of the class
+     */
     @Override
     public String toString() {
         return shapeName;
