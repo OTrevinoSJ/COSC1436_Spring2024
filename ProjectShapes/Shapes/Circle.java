@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 
 public class Circle extends Shape{
 
+    // instance variables
     private double diameter;
     private double radius;
 
