@@ -33,7 +33,7 @@ public class MainApp implements ConsoleColorUtil{
      */
     public static void main(String[] args) {
 
-        
+        // Title
         printTitle();
         // A scanner that allows the user to enter input into the program
         Scanner kb = new Scanner(System.in);
