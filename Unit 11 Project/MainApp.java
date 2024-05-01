@@ -33,10 +33,12 @@ public class MainApp implements ConsoleColorUtil{
      */
     public static void main(String[] args) {
 
-        // Title
-        printTitle();
         // A scanner that allows the user to enter input into the program
         Scanner kb = new Scanner(System.in);
+        
+        // Title
+        printTitle();
+        
         // A method that gets all input demensions from the user and adds a shape to the array list to then return back to the main calling program
         Shape[] shapes = setDemensions(kb);
 
