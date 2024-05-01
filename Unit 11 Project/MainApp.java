@@ -249,8 +249,7 @@ public class MainApp implements ConsoleColorUtil{
             // Reads each line from the file then prints to the file
             // Hence, copies data from a storage device on a file and copies it to computer memory
             while ((line = br.readLine()) != null) {
-                System.out.print(ConsoleColorUtil.ANSI_CYAN + line + ConsoleColorUtil.ANSI_RESET);
-                System.out.println();
+                System.out.println(CText.cText(line, ANSI_CYAN));
             }
 
             // Decoration (Aesthetic)
