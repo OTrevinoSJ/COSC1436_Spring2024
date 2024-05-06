@@ -12,6 +12,7 @@ import Shapes.InvalidShapeArgument;
 import Shapes.Octogon;
 import Shapes.Pentagon;
 import Shapes.Rectangle;
+import Shapes.Rhombus;
 import Shapes.Shape;
 import Shapes.Square;
 import Utils.CText;
@@ -25,7 +26,7 @@ public class MainApp implements ConsoleColorUtil{
 
     // A constant variable that needs to be forcfully updated by me when adding a new class
     // reason being, static arrays!
-    private static int NUM_OF_SHAPES = 7;
+    private static int NUM_OF_SHAPES = 8;
 
     /**
      * This method accepts user demensions as input and attempts to apply to the shape, if not an exception will handle it accordingly
@@ -33,12 +34,10 @@ public class MainApp implements ConsoleColorUtil{
      */
     public static void main(String[] args) {
 
+        // This shows the title of the page
+        printTitle();
         // A scanner that allows the user to enter input into the program
         Scanner kb = new Scanner(System.in);
-        
-        // Title
-        printTitle();
-        
         // A method that gets all input demensions from the user and adds a shape to the array list to then return back to the main calling program
         Shape[] shapes = setDemensions(kb);
 
@@ -150,6 +149,17 @@ public class MainApp implements ConsoleColorUtil{
                             width = kb.nextDouble();
                             axisTwo = width;
                             shape = new Ellipse(axisOne, axisTwo);
+                            index = addShapeToList(shapes, shape, index);
+                            i++;
+                            break;
+                        case 7:
+                            double diagOne, diagTwo;
+                            System.out.println("Enter the diagonals for the rhombus: ");
+                            System.out.print("Enter Diagonal (" + CText.cText("1", ANSI_GREEN) + "): ");
+                            diagOne = kb.nextDouble();
+                            System.out.print("Enter Diagonal (" + CText.cText("2", ANSI_GREEN) + "): ");
+                            diagTwo = kb.nextDouble();
+                            shape = new Rhombus(diagOne, diagTwo);
                             index = addShapeToList(shapes, shape, index);
                             i++;
                             break;
