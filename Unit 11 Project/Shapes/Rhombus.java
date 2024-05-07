@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 
 public class Rhombus extends Shape{
 
+    // created three private variables for this class
     private double sideLen;
     private double diagOne;
     private double diagTwo;
@@ -35,6 +36,7 @@ public class Rhombus extends Shape{
 
     /**
      * This method calculates the area of a rhombus
+     * @return the calculated area
      */
     @Override
     public double calculateArea() {
@@ -43,6 +45,7 @@ public class Rhombus extends Shape{
 
     /**
      * This method calculate the perimeter of a rhombus
+     * @return the calculated perimeter
      */
     @Override
     public double calculatePerimeter() {
