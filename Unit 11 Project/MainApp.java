@@ -265,6 +265,8 @@ public class MainApp implements ConsoleColorUtil{
             // Decoration (Aesthetic)
             System.out.println(CText.cText("====================================================================================", ANSI_BLUE));
 
+            // close the file to allow future programs to access it
+            br.close();
         } catch (IOException e) {
             // This is the backup in case file fails to read for whatever reason
             // Decoration (Aesthetic)
